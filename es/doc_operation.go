@@ -1,8 +1,8 @@
 package es
 
 import (
+	"context"
 	"github.com/olivere/elastic/v7"
-	"golang.org/x/net/context"
 )
 
 const (

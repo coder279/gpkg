@@ -1,6 +1,6 @@
 package es
 
-import "golang.org/x/net/context"
+import "context"
 
 func (c *Client) IndexExists(ctx context.Context, indexName string, forceCheck bool) (bool, error) {
 	if !forceCheck {

@@ -1,10 +1,10 @@
 package es
 
 import (
+	"context"
 	"crypto/tls"
 	"encoding/json"
 	"github.com/olivere/elastic/v7"
-	"golang.org/x/net/context"
 	"log"
 	"net/http"
 	"os"
